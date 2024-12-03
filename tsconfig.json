@@ -3,25 +3,18 @@
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
     "module": "es6",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "sourceMap": true,
     "target": "es5",
     "jsx": "react",
     "noEmit": true,
     "allowSyntheticDefaultImports": true
   },
-  "exclude": [
-    "**/*.spec.ts",
-    "node_modules",
-    "vendor",
-    "public"
-  ],
-  "compileOnSave": false,
+  "exclude": ["**/*.spec.ts", "node_modules", "vendor", "public"],
+  "compileOnSave": false
 }
 // {
 //   "compilerOptions": {
@@ -125,4 +118,5 @@
 //     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
 //     "skipLibCheck": true /* Skip type checking all .d.ts files. */
 //   }
+
 // }

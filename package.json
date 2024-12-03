@@ -25,6 +25,7 @@
     "babel-loader": "^8.4.1",
     "compression-webpack-plugin": "^9.2.0",
     "fork-ts-checker-webpack-plugin": "^9.0.2",
+    "react-select": "^5.8.3",
     "react_ujs": "^3.2.1",
     "shakapacker": "8.0.0",
     "terser-webpack-plugin": "^5.3.10",
@@ -38,6 +39,7 @@
     "eslint": "^9.16.0",
     "eslint-plugin-react": "^7.37.2",
     "globals": "^15.13.0",
+    "prettier": "3.4.1",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.17.0",
     "webpack-dev-server": "^4.15.2"
