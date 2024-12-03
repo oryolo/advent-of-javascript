@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import ClosedEyeIcon from "./icons/ClosedEyeIcon";
-import EyeIcon from "./icons/EyeIcon";
-import LockIcon from "./icons/LockIcon";
+import ClosedEyeIcon from "../icons/ClosedEyeIcon";
+import EyeIcon from "../icons/EyeIcon";
+import LockIcon from "../icons/LockIcon";
 
 interface Props {
   password: string;
